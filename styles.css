@@ -257,10 +257,21 @@ h2 + p {
 }
 
 #team {
-  background: url('img/bgtienich.png') left no-repeat;
+  background: url('img/trongdong.jpg') left no-repeat;
   background-size: cover;
-  color: white;
+  color: #000;
   text-align: center;
+}
+
+.img-circle{
+  width: 300px;
+  height: Auto;
+  margin-left: -20px;
+  transition: transform 0.5s;
+}
+
+.col-sm-3:hover img{
+  transform: scale(1.1)
 }
 
 footer {
@@ -398,11 +409,7 @@ footer a {
   margin-top: 0px;
   display: block;
 }
-.img-circle{
-  width: 300px;
-  height: Auto;
-  margin-left: -20px;
-}
+
 
 /*------- Responsive -------*/
 @media only screen and (max-width: 568px) {
